@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
+
+body {
+	background: linear-gradient(236.85deg, #290040 27.26%, #a600ff 96.03%);
+	font-family: "Eczar", serif;
+}
+
+.container {
+	background-color: #ecf4ff;
+	color: #1c1c1c;
+	margin: 64px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	padding: 64px;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+
+.perfil {
+	display: flex;
+}
+
+.perfil-foto {
+	border-radius: 460px;
+	max-height: 160px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.titulo h2 {
+	font-family: "Roboto Serif", serif;
+	font-size: 20px;
+}
+
+.titulo h3 {
+	font-family: "Roboto Serif", serif;
+	font-size: 10px;
+}
+
+.titulo p,
+a {
+	color: #290040;
+	font-family: "Roboto Serif", serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.titulo p,
+a:hover {
+	color: #c13584;
+	transition: color 0.2s;
+}
+
+.tema button {
+	align-self: flex-end;
+	font-family: "Roboto Serif", serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 16px;
+	background-color: #ecf4ff;
+	border-radius: 100px;
+	border: 2px solid #0e1d2f;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(236.85deg, #9e71da 27.26%, #ddcef2 96.03%);
+	margin: 10px;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+	border-radius: 20px;
+}
+
+.projetos ul {
+	text-align: center;
+	font-family: "Eczar", serif;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.projetos li {
+	text-align: center;
+	list-style: none;
+	font-family: "Roboto Serif", serif;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.dark {
+	background: linear-gradient(236.85deg, #290040 27.26%, #a600ff 96.03%);
+}
+
+.dark .container {
+	background-color: #333439;
+	color: #f6f6f6;
+}
+
+.dark .titulo a {
+	color: white;
+}
+
+.dark .titulo a:hover {
+	color: #dc91ff;
+}
+
+.dark .projetos {
+	color: #1c1c1c;
+}
+
+.dark .tema button {
+	background-color: #1c1c1c;
+	color: white;
+	border: 2px solid #f7f7f7;
+}
